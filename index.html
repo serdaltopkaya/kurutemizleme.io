@@ -28,12 +28,15 @@ layout: compress
 <body class="body">
 <div class="container">
     <header class="header">
-        <h1>Modern Blog<span>A Clean, Fresh Minimal Look.</span></h1>
+        <h1>Dicle Laundry<span>Endüstriyel Çamaşır Yıkamada Teknolojik Çözümler</span>
+        
+            <span>Enfeksiyon kontrol prensiplerine uygun bir şekilde yıkanır.
+                Cinsine göre ayrımı yapılmış tekstiller, uygun kimyasal karışımlarla uygun sıcaklıkta ve sürede yıkanır, ayrı ayrı kurutulur ve ütülenir.
+                Hijyenik bir ortamda paketlenir ve teslim edilir. </span>
+        </h1>
         <nav class="links">
-            <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
-            <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
-            <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
-            <a href="#"><i class="fa fa-tumblr-square fa-3x"></i></a>
+            <a href="#"><i class="fa fa-whatsapp-square fa-spin fa-3x"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=9053" style="display: inline-block; padding:16px; border-radius: 8px; background-color: #25D366; color: #fff; text-decoration: none; font-family: sans-serif; font-size: 16px;">Whatsapptan İletişime Geçmek İçin Buraya Basın</a>
         </nav>
     </header>
     <div class="content">
@@ -62,11 +65,6 @@ layout: compress
                             <p class="card__subtitle">{{ post.subtitle }}</p>
                         </div>
                         <div class="card__copy">
-                            <div class="meta">
-                                <img class="meta__avatar" src="{{ post.avatar }}"/>
-                                <span class="meta__author">{{ post.author }}</span>
-                                <span class="meta__date">{{ post.date | date: "%Y-%m-%d" }}</span>
-                            </div>
                             {{ post.content }}
                         </div>
                     </div>
